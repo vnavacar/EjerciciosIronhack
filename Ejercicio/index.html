@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>columnas sin flex</title>
+<style>
+  .container {
+    width: 100%;
+  }
+  .columna {
+    float: left;
+    width: 50%;
+  }
+  .elemento {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+  }
+  /* Limpieza */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+</style>
+</head>
+<body>
+
+<div class="container clearfix">
+  <div class="columna">
+    <div class="elemento">Elemento 1</div>
+    <div class="elemento">Elemento 2</div>
+    <div class="elemento">Elemento 3</div>
+    <div class="elemento">Elemento 4</div>
+    <div class="elemento">Elemento 5</div>
+  </div>
+  <div class="columna">
+    <div class="elemento">Elemento 6</div>
+    <div class="elemento">Elemento 7</div>
+    <div class="elemento">Elemento 8</div>
+    <div class="elemento">Elemento 9</div>
+  </div>
+</div>
+
+</body>
+</html>
