@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.header, .footer, .main, .sidebar {
+  box-sizing: border-box;
+
+}
+
+.sidebar {
+  background-color: #FFC0CB;
+  width: 20%;
+  float: left;
+  height: 1050px;
+}
+.header {
+  background-color: #FFD700;
+  overflow: hidden;
+  align-content: center;
+}
+
+
+.main {
+  background-color: blue;
+  margin-left: 22%;
+  height: auto;
+}
+
+.footer {
+  background-color: #ADD8E6;
+  clear: both;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.highlight {
+  background-color: yellow;
+}
